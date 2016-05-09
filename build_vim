@@ -1,0 +1,24 @@
+"-----------------------------------------------------------------------------------------
+" NOTES 
+"-----------------------------------------------------------------------------------------
+" compiling vim - 
+"
+" ./configure --prefix=/usr/local \
+"              --with-features=huge \
+"              --enable-multibyte \
+"              --enable-gui=no \
+"              --without-x \
+"              --with-tlib=tinfo \
+"              --enable-rubyinterp \
+"              --with-ruby-command=/usr/bin/ruby \
+"              --enable-pythoninterp \
+"              --with-python-config-dir=/usr/lib/python2.7/config \
+"              --enable-perlinterp \
+"              --enable-luainterp
+"
+" make VIMRUNTIMEDIR=/usr/share/vim/vim74
+"
+" VIM searches 'runtimepath' for syntax files, help, etc. If VIM is manually
+" built, thr 'rtp' needs to change to reflect the new VIM location, or a
+" symlink needs to be added from where vim is installed to /usr/share/vim
+"-----------------------------------------------------------------------------------------
