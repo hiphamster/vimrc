@@ -149,9 +149,8 @@ let g:UltiSnipsEditSplit="vertical"
 
 "-----------------------------------------------------------------------------------------
 " Vertical indentation for blocks
-Plugin 'Yggdroot/indentLine'
-nmap <leader>i :IndentLinesToggle<CR>
-
+" Plugin 'Yggdroot/indentLine'
+" nmap <leader>i :IndentLinesToggle<CR>
 
 " will move this to Java.vim
 " vertical line indentation
