@@ -107,6 +107,9 @@ let NERDTreeHijackNetrw=1
 "-----------------------------------------------------------------------------------------
  "Clojure
 Bundle 'guns/vim-clojure-static'
+
+" ayelluas
+" it seems that vim-fireplace requires python 2.7, and breaks with 3.2
 Bundle 'tpope/vim-fireplace'
 " jump to definition under the cursor
 nmap <leader>K "zyw:exe "Djump ".@z" "<CR>
@@ -170,6 +173,11 @@ Plugin 'mileszs/ack.vim'
 "-----------------------------------------------------------------------------------------
 " search from Vim via ack
 Plugin 'wesQ3/vim-windowswap'
+"-----------------------------------------------------------------------------------------
+Plugin 'godlygeek/tabular'
+" Plugin 'plasticboy/vim-markdown'
+Plugin 'vim-pandoc/vim-pandoc'
+Plugin 'vim-pandoc/vim-pandoc-syntax' 
 "-----------------------------------------------------------------------------------------
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
