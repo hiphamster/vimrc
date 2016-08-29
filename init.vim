@@ -176,10 +176,13 @@ Plugin 'mileszs/ack.vim'
 Plugin 'wesQ3/vim-windowswap'
 "-----------------------------------------------------------------------------------------
 Plugin 'godlygeek/tabular'
+"-----------------------------------------------------------------------------------------
+"Markup/markdown
 " Plugin 'plasticboy/vim-markdown'
 Plugin 'vim-pandoc/vim-pandoc'
 Plugin 'vim-pandoc/vim-pandoc-syntax' 
 let g:pandoc#syntax#conceal#urls = 1
+Plugin 'elzr/vim-json'
 
 "-----------------------------------------------------------------------------------------
 " All of your Plugins must be added before the following line
